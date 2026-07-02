@@ -1,0 +1,74 @@
+/* Dark Theme */
+
+[data-theme="dark"] {
+  /* Backgrounds */
+  --color-background: #161617;
+  --color-surface: #1d1d1f;
+  --color-surface-secondary: #2a2a2d;
+  --color-surface-hover: #333336;
+
+  /* Sidebar & Topbar */
+  --color-sidebar: #1d1d1f;
+  --color-topbar: rgba(29, 29, 31, 0.85);
+
+  /* Live 3D Viewer */
+  --color-viewer-background: #38383d;
+
+  /* Borders */
+  --color-border: #3d3d40;
+  --color-divider: #2f2f31;
+
+  /* Text */
+  --color-text-primary: #f5f5f7;
+  --color-text-secondary: #a1a1a6;
+  --color-text-muted: #86868b;
+
+  /* Accent */
+  --color-primary: #0a84ff;
+  --color-primary-hover: #339cff;
+
+  /* Status */
+  --color-success: #30d158;
+  --color-warning: #ffd60a;
+  --color-danger: #ff453a;
+  --color-info: #64d2ff;
+
+  /* Cards */
+  --card-background: var(--color-surface);
+  --card-border: var(--color-border);
+
+  /* Inputs */
+  --input-background: #2a2a2d;
+  --input-border: #454548;
+  --input-focus: var(--color-primary);
+
+  /* Buttons */
+  --button-primary: var(--color-primary);
+  --button-primary-hover: var(--color-primary-hover);
+
+  --button-secondary: #2c2c2e;
+  --button-secondary-hover: #3a3a3c;
+
+  /* Sidebar */
+  --sidebar-link: #d2d2d7;
+  --sidebar-link-hover: rgba(10, 132, 255, 0.12);
+  --sidebar-link-active: rgba(10, 132, 255, 0.20);
+
+  /* Shadows */
+  --shadow-small: 0 2px 8px rgba(0, 0, 0, 0.18);
+  --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.24);
+  --shadow-large: 0 20px 48px rgba(0, 0, 0, 0.35);
+}
+
+/* High Contrast */
+
+[data-theme="dark"][data-high-contrast] {
+  --color-background: #000000;
+  --color-surface: #111111;
+  --color-border: #ffffff;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #f2f2f2;
+
+  --sidebar-link-active: #0a84ff;
+}
