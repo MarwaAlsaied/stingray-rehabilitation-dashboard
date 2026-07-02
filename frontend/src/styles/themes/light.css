@@ -1,0 +1,75 @@
+/* Light Theme */
+
+[data-theme="light"] {
+  /* Backgrounds */
+  --color-background: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f2f2f5;
+  --color-surface-hover: #ebebee;
+
+  /* Sidebar & Topbar */
+  --color-sidebar: #ffffff;
+  --color-topbar: rgba(255, 255, 255, 0.85);
+
+  /* Live 3D Viewer */
+  --color-viewer-background: #e5e5e7;
+
+  /* Borders */
+  --color-border: #d2d2d7;
+  --color-divider: #e5e5ea;
+
+/* Text */
+
+--color-text-primary: #1d1d1f;
+--color-text-secondary: #4f4f54;
+--color-text-muted: #6e6e73;
+
+  /* Accent */
+  --color-primary: #0071e3;
+  --color-primary-hover: #2488ff;
+
+  /* Status */
+  --color-success: #28cd41;
+  --color-warning: #ff9f0a;
+  --color-danger: #ff3b30;
+  --color-info: #5ac8fa;
+
+  /* Cards */
+  --card-background: #ffffff;
+  --card-border: #d2d2d7;
+
+  /* Inputs */
+  --input-background: #ffffff;
+  --input-border: #d2d2d7;
+  --input-focus: var(--color-primary);
+
+  /* Buttons */
+  --button-primary: var(--color-primary);
+  --button-primary-hover: var(--color-primary-hover);
+
+  --button-secondary: #f2f2f5;
+  --button-secondary-hover: #e5e5ea;
+
+  /* Sidebar */
+  --sidebar-link: #1d1d1f;
+  --sidebar-link-hover: rgba(0, 113, 227, 0.08);
+  --sidebar-link-active: rgba(0, 113, 227, 0.16);
+
+  /* Shadows */
+  --shadow-small: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-large: 0 20px 48px rgba(0, 0, 0, 0.12);
+}
+
+/* High Contrast */
+
+[data-theme="light"][data-high-contrast] {
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-border: #000000;
+
+  --color-text-primary: #000000;
+  --color-text-secondary: #222222;
+
+  --sidebar-link-active: #0071e3;
+}
